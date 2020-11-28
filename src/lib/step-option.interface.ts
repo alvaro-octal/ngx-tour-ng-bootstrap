@@ -1,4 +1,4 @@
-import { IStepOption } from 'ngx-tour-core';
+import { IStepOption } from '@ngx-tour/core';
 import { Placement } from '@ng-bootstrap/ng-bootstrap';
 
 export interface INgbStepOption extends IStepOption {

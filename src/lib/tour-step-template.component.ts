@@ -1,4 +1,4 @@
-import { TourHotkeyListenerComponent, IStepOption } from 'ngx-tour-core';
+import { TourHotkeyListenerComponent, IStepOption } from '@ngx-tour/core';
 import { TourStepTemplateService } from './tour-step-template.service';
 import {
   Component,
