@@ -4,6 +4,6 @@ import { TourService } from '@ngx-tour/core';
 import { INgbStepOption } from './step-option.interface';
 
 @Injectable({
-    providedIn: 'root',
-  })
+    providedIn: 'root'
+})
 export class NgbTourService extends TourService<INgbStepOption> {}
