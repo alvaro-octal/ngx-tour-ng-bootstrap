@@ -78,5 +78,6 @@ export class TourAnchorNgBootstrapDirective implements OnInit, OnDestroy, TourAn
     public hideTourStep(): void {
         this.isActive = false;
         this.popoverDirective.close();
+        this.tourBackdrop.close();
     }
 }
