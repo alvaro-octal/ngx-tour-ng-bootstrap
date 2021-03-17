@@ -19,11 +19,11 @@ import { NgbTourService } from './ng-bootstrap-tour.service';
             <p class="tour-step-content">{{ step?.content }}</p>
             <div class="tour-step-navigation">
                 <button *ngIf="tourService.hasPrev(step)" class="btn btn-sm btn-primary" (click)="tourService.prev()">
-                    « {{ step?.prevBtnTitle }}
-                </button>
+                    {{ step?.prevBtnTitle }}
+                </button>&nbsp;
                 <button *ngIf="tourService.hasNext(step)" class="btn btn-sm btn-primary" (click)="tourService.next()">
-                    {{ step?.nextBtnTitle }} »
-                </button>
+                    {{ step?.nextBtnTitle }}
+                </button>&nbsp;
                 <button class="btn btn-sm btn-primary" (click)="tourService.end()">
                     {{ step?.endBtnTitle }}
                 </button>
