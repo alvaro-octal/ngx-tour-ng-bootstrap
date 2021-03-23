@@ -1,3 +1,10 @@
+## [11.0.5](https://github.com/alvaro-octal/ngx-tour-ng-bootstrap/compare/v11.0.4...v11.0.5) (2021-03-23)
+
+
+### Fix
+
+* disable animation to allow multiple tourAnchors on same DOM element ([98a1bc6](https://github.com/alvaro-octal/ngx-tour-ng-bootstrap/commit/98a1bc6da2130c2e847fb068bfa6ab63fb3c5b6c))
+
 ## [11.0.4](https://github.com/alvaro-octal/ngx-tour-ng-bootstrap/compare/v11.0.3...v11.0.4) (2021-03-18)
 
 
