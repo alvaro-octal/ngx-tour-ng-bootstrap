@@ -1,3 +1,10 @@
+# [11.1.0](https://github.com/alvaro-octal/ngx-tour-ng-bootstrap/compare/v11.0.5...v11.1.0) (2021-03-28)
+
+
+### New
+
+* Add backdrop zindex ([c39b725](https://github.com/alvaro-octal/ngx-tour-ng-bootstrap/commit/c39b7251645f6da90da8c8b9d48e8da9af593aff))
+
 ## [11.0.5](https://github.com/alvaro-octal/ngx-tour-ng-bootstrap/compare/v11.0.4...v11.0.5) (2021-03-23)
 
 
