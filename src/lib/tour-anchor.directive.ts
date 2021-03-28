@@ -70,7 +70,7 @@ export class TourAnchorNgBootstrapDirective implements OnInit, OnDestroy, TourAn
         }
 
         if (step.enableBackdrop) {
-            this.tourBackdrop.show(this.element);
+            this.tourBackdrop.show(this.element, step.backdropZIndex);
         } else {
             this.tourBackdrop.close();
         }

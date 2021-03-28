@@ -17,4 +17,5 @@ export interface INgbStepOption extends IStepOption {
         | 'below'
         | 'above';
     enableBackdrop?: boolean;
+    backdropZIndex?: number;
 }
