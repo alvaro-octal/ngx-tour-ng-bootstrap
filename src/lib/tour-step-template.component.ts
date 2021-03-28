@@ -14,7 +14,14 @@ import { NgbTourService } from './ng-bootstrap-tour.service';
 @Component({
     encapsulation: ViewEncapsulation.None,
     selector: 'tour-step-template',
+    styles: ['.close { margin-top: -4px; }'],
     template: `
+        <ng-template #tourStepTitle let-step="step">
+            {{ step?.title }}
+            <button type="button" class="close" aria-label="Close" (click)="tourService.end()">
+              <span aria-hidden="true">&times;</span>
+            </button>
+        </ng-template>
         <ng-template #tourStep let-step="step">
             <p class="tour-step-content">{{ step?.content }}</p>
             <div class="tour-step-navigation">
@@ -24,9 +31,6 @@ import { NgbTourService } from './ng-bootstrap-tour.service';
                 <button *ngIf="tourService.hasNext(step)" class="btn btn-sm btn-primary" (click)="tourService.next()">
                     {{ step?.nextBtnTitle }}
                 </button>&nbsp;
-                <button class="btn btn-sm btn-primary" (click)="tourService.end()">
-                    {{ step?.endBtnTitle }}
-                </button>
             </div>
         </ng-template>
     `
@@ -38,8 +42,11 @@ export class TourStepTemplateComponent extends TourHotkeyListenerComponent imple
     @Input()
     public stepTemplate: TemplateRef<{ step: IStepOption }>;
 
-    @ContentChild(TemplateRef)
-    public stepTemplateContent: TemplateRef<{ step: IStepOption }>;
+    @ViewChild('tourStepTitle', { read: TemplateRef, static: true })
+    public defaultTourStepTitleTemplate: TemplateRef<any>;
+
+    @Input()
+    public stepTitleTemplate: TemplateRef<{ step: IStepOption }>;
 
     constructor(private tourStepTemplateService: TourStepTemplateService, public tourService: NgbTourService) {
         super(tourService);
@@ -47,6 +54,8 @@ export class TourStepTemplateComponent extends TourHotkeyListenerComponent imple
 
     public ngAfterContentInit(): void {
         this.tourStepTemplateService.template =
-            this.stepTemplate || this.stepTemplateContent || this.defaultTourStepTemplate;
+            this.stepTemplate || this.defaultTourStepTemplate;
+        this.tourStepTemplateService.titleTemplate =
+            this.stepTitleTemplate || this.defaultTourStepTitleTemplate;
     }
 }
