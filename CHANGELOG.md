@@ -1,3 +1,10 @@
+# [11.2.0](https://github.com/alvaro-octal/ngx-tour-ng-bootstrap/compare/v11.1.0...v11.2.0) (2021-03-31)
+
+
+### New
+
+* add container class + move close button to popover header ([09b1bf8](https://github.com/alvaro-octal/ngx-tour-ng-bootstrap/commit/09b1bf80a778f3556bd391d87f21b35b69615561))
+
 # [11.1.0](https://github.com/alvaro-octal/ngx-tour-ng-bootstrap/compare/v11.0.5...v11.1.0) (2021-03-28)
 
 
