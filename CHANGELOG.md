@@ -2,25 +2,25 @@
 
 ### New
 
--   add container class + move close button to popover header ([09b1bf8](https://github.com/ngx-tour/ngx-tour-ng-bootstrap/commit/09b1bf80a778f3556bd391d87f21b35b69615561))
+- add container class + move close button to popover header ([09b1bf8](https://github.com/ngx-tour/ngx-tour-ng-bootstrap/commit/09b1bf80a778f3556bd391d87f21b35b69615561))
 
 # [11.1.0](https://github.com/ngx-tour/ngx-tour-ng-bootstrap/compare/v11.0.5...v11.1.0) (2021-03-28)
 
 ### New
 
--   Add backdrop zindex ([c39b725](https://github.com/ngx-tour/ngx-tour-ng-bootstrap/commit/c39b7251645f6da90da8c8b9d48e8da9af593aff))
+- Add backdrop zindex ([c39b725](https://github.com/ngx-tour/ngx-tour-ng-bootstrap/commit/c39b7251645f6da90da8c8b9d48e8da9af593aff))
 
 ## [11.0.5](https://github.com/ngx-tour/ngx-tour-ng-bootstrap/compare/v11.0.4...v11.0.5) (2021-03-23)
 
 ### Fix
 
--   disable animation to allow multiple tourAnchors on same DOM element ([98a1bc6](https://github.com/ngx-tour/ngx-tour-ng-bootstrap/commit/98a1bc6da2130c2e847fb068bfa6ab63fb3c5b6c))
+- disable animation to allow multiple tourAnchors on same DOM element ([98a1bc6](https://github.com/ngx-tour/ngx-tour-ng-bootstrap/commit/98a1bc6da2130c2e847fb068bfa6ab63fb3c5b6c))
 
 ## [11.0.4](https://github.com/ngx-tour/ngx-tour-ng-bootstrap/compare/v11.0.3...v11.0.4) (2021-03-18)
 
 ### Fix
 
--   Release Script ([f541b69](https://github.com/ngx-tour/ngx-tour-ng-bootstrap/commit/f541b69b49c9f701015765f5a1aeb01e86ba18ab))
+- Release Script ([f541b69](https://github.com/ngx-tour/ngx-tour-ng-bootstrap/commit/f541b69b49c9f701015765f5a1aeb01e86ba18ab))
 
 <a name="6.0.0"></a>
 
@@ -28,11 +28,11 @@
 
 ### Features
 
--   Support Angular 10
+- Support Angular 10
 
 ### BREAKING CHANGES
 
--   Require ng-bootstrap ^7.0.0
+- Require ng-bootstrap ^7.0.0
 
 <a name="5.0.0"></a>
 
@@ -40,7 +40,7 @@
 
 ### BREAKING CHANGES
 
--   Require ng-bootstrap ^5.0.0
+- Require ng-bootstrap ^5.0.0
 
 <a name="4.1.1"></a>
 
@@ -48,7 +48,7 @@
 
 ### Fixes
 
--   Skip undefined tourAnchors
+- Skip undefined tourAnchors
 
 <a name="4.1.0"></a>
 
@@ -56,8 +56,8 @@
 
 ### Features
 
--   Support Angular 8 as peer dependency
--   Support Ivy renderer
+- Support Angular 8 as peer dependency
+- Support Ivy renderer
 
 <a name="4.0.1"></a>
 
@@ -65,7 +65,7 @@
 
 ### Fixes
 
--   NavigationStart only hide currentStep if route is specified eg. routing used
+- NavigationStart only hide currentStep if route is specified eg. routing used
 
 <a name="4.0.0"></a>
 
@@ -73,8 +73,8 @@
 
 ### BREAKING CHANGES
 
--   Require Angular 7 as peer dependency
--   Require ng-bootstrap 4 as peer dependency
+- Require Angular 7 as peer dependency
+- Require ng-bootstrap 4 as peer dependency
 
 <a name="3.0.0"></a>
 
@@ -82,8 +82,8 @@
 
 ### BREAKING CHANGES
 
--   Require Angular 6 as peer dependency
--   Require ng-bootstrap 2 as peer dependency
+- Require Angular 6 as peer dependency
+- Require ng-bootstrap 2 as peer dependency
 
 <a name="2.0.1"></a>
 
@@ -91,7 +91,7 @@
 
 ### Bug Fixes
 
--   Clicking tourAnchor closed and re-opened the tour
+- Clicking tourAnchor closed and re-opened the tour
 
 <a name="2.0.0"></a>
 
@@ -99,8 +99,8 @@
 
 ### Features
 
--   Add touranchor-is-active class
--   Add options to set button text
+- Add touranchor-is-active class
+- Add options to set button text
 
 <a name="2.0.0-beta.5-2"></a>
 
@@ -108,11 +108,11 @@
 
 ### BREAKING CHANGE
 
--   Require Angular 5
+- Require Angular 5
 
 ### Features
 
--   Disable/enable hotkeys
+- Disable/enable hotkeys
 
 <a name="2.0.0-beta.5-1"></a>
 
@@ -120,7 +120,7 @@
 
 ### Features
 
--   Allow all placement options
+- Allow all placement options
 
 <a name="2.0.0-beta.5"></a>
 
@@ -128,7 +128,7 @@
 
 ### BREAKING CHANGES
 
--   Update to ng-bootstrap@1.0.0-beta.5 and bootstrap 4
+- Update to ng-bootstrap@1.0.0-beta.5 and bootstrap 4
 
 <a name="1.0.6"></a>
 
@@ -136,7 +136,7 @@
 
 ### Bug fixes
 
--   Fix bundling for real this time
+- Fix bundling for real this time
 
 <a name="1.0.5"></a>
 
@@ -144,7 +144,7 @@
 
 ### Bug fixes
 
--   Fix bundling to not include ng-bootstrap library
+- Fix bundling to not include ng-bootstrap library
 
 <a name="1.0.4"></a>
 
@@ -152,7 +152,7 @@
 
 ### Bug fixes
 
--   Export TourService
+- Export TourService
 
 <a name="1.0.3"></a>
 
@@ -160,7 +160,7 @@
 
 ### Bug fixes
 
--   Remove max-height style
+- Remove max-height style
 
 <a name="1.0.2"></a>
 
@@ -168,7 +168,7 @@
 
 ### Docs
 
--   Add readme
+- Add readme
 
 <a name="1.0.1"></a>
 
@@ -176,7 +176,7 @@
 
 ### Bug fixes
 
--   Export all of core exports
+- Export all of core exports
 
 <a name="1.0.0"></a>
 
@@ -184,4 +184,4 @@
 
 ### BREAKING CHANGES
 
--   Split out to a separate package
+- Split out to a separate package
