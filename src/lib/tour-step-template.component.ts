@@ -28,7 +28,7 @@ import { NgbTourService } from './ng-bootstrap-tour.service';
       </button>
     </ng-template>
     <ng-template #tourStep let-step="step">
-      <p class="tour-step-content">{{ step?.content }}</p>
+      <p class="tour-step-content" [innerHTML]="step?.content"></p>
       <div class="tour-step-navigation">
         <button
           *ngIf="tourService.hasPrev(step)"
