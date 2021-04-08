@@ -1,3 +1,10 @@
+## [11.2.2](https://github.com/ngx-tour/ngx-tour-ng-bootstrap/compare/v11.2.1...v11.2.2) (2021-04-08)
+
+
+### Fix
+
+* update @ngx-tour/core and use innerHTML tag for content ([7219c21](https://github.com/ngx-tour/ngx-tour-ng-bootstrap/commit/7219c2149083673b421a6811b48d5162a1809894))
+
 ## [11.2.1](https://github.com/ngx-tour/ngx-tour-ng-bootstrap/compare/v11.2.0...v11.2.1) (2021-04-06)
 
 
