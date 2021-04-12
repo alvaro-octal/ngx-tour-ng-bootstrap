@@ -1,3 +1,10 @@
+# [11.3.0](https://github.com/ngx-tour/ngx-tour-ng-bootstrap/compare/v11.2.2...v11.3.0) (2021-04-12)
+
+
+### Chore
+
+* Update dependencies ([a21339f](https://github.com/ngx-tour/ngx-tour-ng-bootstrap/commit/a21339fdda30fbfee179fbd327c16ebe151f3816))
+
 ## [11.2.2](https://github.com/ngx-tour/ngx-tour-ng-bootstrap/compare/v11.2.1...v11.2.2) (2021-04-08)
 
 
