@@ -1,0 +1,44 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: weekly
+  open-pull-requests-limit: 10
+  assignees:
+  - alvaro-octal
+  versioning-strategy: widen
+  ignore:
+  - dependency-name: "@angular/cli"
+    versions:
+    - 11.2.8
+  - dependency-name: "@angular/common"
+    versions:
+    - 11.2.9
+  - dependency-name: "@angular/router"
+    versions:
+    - 11.2.9
+  - dependency-name: "@angular-eslint/eslint-plugin-template"
+    versions:
+    - 2.1.0
+  - dependency-name: "@angular-eslint/builder"
+    versions:
+    - 2.1.0
+  - dependency-name: "@angular-eslint/eslint-plugin"
+    versions:
+    - 2.1.0
+  - dependency-name: "@angular-eslint/template-parser"
+    versions:
+    - 2.1.0
+  - dependency-name: eslint
+    versions:
+    - 7.24.0
+  - dependency-name: "@angular-devkit/build-angular"
+    versions:
+    - 0.1102.8
+  - dependency-name: "@angular/compiler-cli"
+    versions:
+    - 11.2.9
+  - dependency-name: eslint-plugin-prefer-arrow
+    versions:
+    - 1.2.3
